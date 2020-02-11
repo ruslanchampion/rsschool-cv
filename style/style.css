@@ -1,0 +1,281 @@
+header {
+	background: url(../img/1.jpg) no-repeat center top / cover;/*фоновая картинка неподвижная на весь экран*/
+	background-attachment: fixed; /*прокручивание фона отключено*/
+	width: 100%; /*ширина*/
+    height: 120vh; /*высота*/
+}
+body{
+    padding: 0;/*внутрений отступ*/
+    margin: 0;/*внешние отступы*/
+    font-family: Arial, Helvetica, sans-serif;/*Стиль шрифта*/
+}
+.fixed1{
+    margin: -65px;/*внешние отступы*/
+    border-bottom: 2px solid #757575;/*граница снизу*/
+}
+
+.container {
+	max-width: 1200px;/*ширина*/
+    margin: 0 auto;/*внешние отступы*/
+    
+}
+
+.logo {
+    width: 67px;/*ширина*/
+    height: 67px;/*высота*/
+    background-color: #11749e;/*цвет фона*/
+    box-shadow: 10px 10px #fff;
+    margin-top: 20px;/*внешние отступы*/
+    float: left;/*расположение объекта на странице*/
+    margin-left:20px;/*внешние отступы*/
+}
+    .logo p{
+        font-size: 1.875em;/*размер объекта*/
+        color: #fff;/*цвет*/
+        padding: 17px 12px;/*внутрений отступ*/
+        margin: 0px 0px;/*внешние отступы*/
+    }
+    .socials {
+        float: right;/*расположение объекта на странице*/
+        margin-top: 22px;/*внешние отступы*/
+        padding: 20px;/*внутрений отступ*/
+        font-size: 0.95em;/*размер объекта*/
+        margin-right: 10px;/*внешние отступы*/
+    }
+    .socials i{
+        padding:0 10px;/*внутрений отступ*/
+    }
+    .socials a:hover i{
+        color: #11749e;/*цвет*/
+    }
+
+nav{
+    float: right;   /*расположение объекта на странице*/
+}
+nav ul {
+    display: block;/*как элемент должен быть показан в документе(показывается как блочный)*/
+    padding: 0;/*внутрений отступ*/
+    margin: 0;/*внешний отступ*/
+    
+}
+
+nav li{
+    float: left;/*расположение объекта на странице*/
+    display: block;/*как элемент должен быть показан в документе(показывается как блочный)*/
+    text-decoration: none;/*подчеркивание убрали*/
+    padding: 50px 0px;/*внутрений отступ*/
+}
+
+nav li a{
+    padding: 65px 30px;/*внутрений отступ*/
+    font-weight: 500;
+    color: #fff;/*цвет*/
+    font-size: 1.25em;/*размер объекта*/
+    text-decoration: none;/*подчеркивание убрали*/
+}
+nav li a:hover{
+    border-bottom: 6px solid #11749e;/*нижнее подчерикание при наведении*/
+}
+
+.slide {
+    margin-top: 35vh; /*Отступ cверху*/
+    text-align: center;/*расположение текста*/
+    color: white;/*цвет*/
+}
+.slide h2 {
+    font-size: 9.75em;/*размер объекта*/
+    text-transform: uppercase;/*Большие буквы*/
+    font-weight: 600; /*Жирность*/
+    margin-bottom: 20px;/*Отступ снизу*/
+}
+.slide p {
+    font-size: 1.5625em;/*размер объекта*/
+    color: #11749e;/*цвет*/
+    text-transform: uppercase;/*Большие буквы*/
+    letter-spacing: 20px;/*Разбег между буквами*/
+    padding-left: 20px;/*Отступ слева*/
+    margin-bottom: 120px;/*Отступ снизу*/
+}
+.scroll {
+    margin: 0 auto;/*центрировать*/
+}
+.scroll span { 
+    font-size: 0.8em;/*размер объекта*/
+}
+.scroll i{
+    display: block;/*как элемент должен быть показан в документе(показывается как блочный)*/
+    padding: 20px;/*внутрений отступ*/
+    border: 1px solid;/*граница*/
+    border-radius: 50%;/*радиус округления*/
+    width: 20px;/*ширина*/
+    height: 20px;/*высота*/
+    margin: 20px auto;/*внешний отсуп сверху и центрирование*/
+}
+.scroll a:hover i{
+    border-color: #11749e;/*цвет границы*/
+    color: #11749e;/*цвет*/
+}
+
+.about{
+    height:100vh;/*высота*/
+    background-color: #11749e;/*цвет фона*/
+    text-align: center;/*расположение текста*/
+    color: #fff;/*цвет шрифта*/
+    padding-top: 20px;/*отступ сверху*/
+}
+
+.heading span{
+    font-size: 18.125em;/*размер объекта*/
+    opacity: 0.1;/*прозрачность*/
+    font-weight: bold; /*стиль ширфта*/
+    font-stretch: condensed;/*узость начертания*/
+}
+.heading h2{
+    font-size: 2.3125em;/*размер объекта*/
+    text-transform: uppercase; /*Большими буквами*/
+    margin: -160px 0 80px 0;/*внешние отступы*/
+}
+
+.features{
+    margin-top: 100px;/*внешние отступы сверху*/
+}
+
+.feature {
+    float: left;/*расположение объекта на странице*/
+    width: 25%;/*ширина объекта*/
+}
+
+.feature-img {
+    border-radius: 50%;/*радиус округления*/
+    background-color: rgba(255, 255, 255, 0.2);/*цвет фона*/
+    width: 150px;/*ширина объекта*/
+    height: 150px;/*высота объекта*/
+    margin: 0 auto;/*центрировать*/
+}
+
+.feature-img img{
+    padding: 55px;/*внутренние отступы*/
+}
+
+.feature-img:hover{        
+    opacity: 0.5;/*уровень прозрачности*/
+}
+
+.feature h3{
+    font-size: 1.125em;/*размер объекта*/
+    padding: 20px;/*внутренние отступы*/
+}
+
+.feature p{
+    text-align: center;/*расположение текста*/
+    margin: 0 7%;/*внешние отступы*/
+}
+
+.left{
+	float:left; /*расположение объекта на странице*/
+	width:50%; /*ширина*/
+}	
+.right{
+	float:right;/*расположение объекта на странице*/
+	width:50%;/*ширина*/
+}
+.news .left, .news .right{
+    background-color: #222;/*цвет фона*/
+	color: #fff;/*цвет*/
+    height: 450px;/*высота*/
+}
+.news .right{
+	background-color: #f3f3f3;/*цвет фона*/	
+    color:#000;/*цвет*/
+}
+.news .news-img1{
+	width: 100%;/*ширина*/
+	height: 100%;/*высота*/
+	background:url('../img/news-2.jpg') no-repeat;/*фоновая картинка без повторений*/
+	background-size: cover;/*на всю область*/
+}
+.news-img2{
+    width: 100%;/*ширина*/
+	height: 100%;/*высота*/
+	background:url('../img/news-1.jpg') no-repeat;/*фоновая картинка без повторений*/
+    background-size: cover;/*на всю область*/
+}
+.news-txt{
+    width: 90%;/*ширина*/
+    margin: 0 auto;/*внешние отступы*/
+	padding-top: 80px;/*внутренние отступы*/
+	padding-bottom: 80px;/*внутренние отступы*/
+	padding-left: 2%;/*внутренние отступы*/
+   	padding-right: 2%;/*внутренние отступы*/
+}
+.news h2{
+	font-size: 1.5625em;/*размер*/
+	margin:10px 0;/*внешние отступы*/
+}
+.news .date, .news .section {
+	display: inline-block;/*как элемент должен быть показан в документе(показывается как в линию блок)*/
+	font-size: 0.75em;/*размер*/
+	font-style: italic;/*стиль*/
+	margin-right: 10px;/*внешние отступы*/
+}
+.news .section{
+	border-left: 1px solid ;/*нижняя граница*/
+    padding-left: 10px;/*внутренние отступы*/
+}
+.news p{
+    margin-top: 30px;/*внешние отступы*/
+    line-height: 2;/*Устанавливает межстрочный интервал текста*/
+    height: 210px;/*высота*/
+}
+.blogs{
+    text-align: center;/*расположение текста*/
+    padding-top: 100px;/*оступ сверху*/
+    background-color: #fff;/*цвет фона*/
+    height:900px;/*высота*/
+    padding-bottom: 1%;
+}
+.blogs .heading h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin: -123px 0 123px 0;
+}
+
+.blogs .heading h3 {
+    font-size: 2.1875em;
+    font-stretch: condensed;
+    letter-spacing: 5px;
+    padding: 2% 1% 0 1%;
+}
+
+    
+.blog{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-section {
+    float: left;
+    width: 23%;
+    margin: 50px 5px 0 5px;
+}
+.blog-section:hover{
+    box-shadow: 0 0 10px -1px #11749e;
+}
+.blog-section h3{
+    font-size: 1.125em;
+    padding: 20px 0;
+    color:#11749e;
+    text-transform: uppercase;
+}
+.blog-section p{
+    text-align: center;
+    line-height: 1.7;
+    margin:0 10px;
+    height: 200px;
+    overflow: hidden;
+    color: #222;
+}
+.blog-img {
+    height: 280px;
+    overflow: hidden;
+}

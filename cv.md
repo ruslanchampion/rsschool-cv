@@ -13,11 +13,11 @@ I work in the field of information security (cryptography) 5 years. Now I think 
 ### --------------------------------------------------------------------------------------------------------
 
 ### 4. SKILLS
-> 4.1 JavaScript;  
-> 4.2 CSS; 
-> 4.3 HTML; 
-> 4.4 REACT;
-> 4.5 Photoshop.
+>  4.1 JavaScript;  
+>  4.2 CSS; 
+>  4.3 HTML; 
+>  4.4 REACT;
+>  4.5 Photoshop.
 
 ### --------------------------------------------------------------------------------------------------------
 
@@ -35,7 +35,7 @@ In February 2019, I started training at The Rolling Scope School and studied in 
 
 ### 7. EDUCATION 
 
-> *2009 - 2014* - Faculty of Applied Mathematics, Academy of the Federal Security Service. Qualification: mathematician. Specialty: Cryptography.  
+*2009 - 2014* - Faculty of Applied Mathematics, Academy of the Federal Security Service. Qualification: mathematician. Specialty: Cryptography.  
 
 ### --------------------------------------------------------------------------------------------------------
 

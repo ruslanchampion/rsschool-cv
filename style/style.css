@@ -454,7 +454,6 @@ form{
     font-size: 1.25em;/*размер объекта*/
 }
 .contacts .heading p a{
-    padding: 65px 15px;/*внутрений отступ*/
     font-weight: 501;
     color: #fff;/*цвет*/
     font-size: 1.25em;/*размер объекта*/
@@ -463,10 +462,10 @@ form{
 .contacts textarea{
     margin: 0 auto;
     display: block;
-    width:95%;
+    width:97%;
     background-color: transparent;
     border: 1px solid #fff;
-    padding:20px;
+    padding: 20px;
     color: #fff;
     font-weight: bold;
 }

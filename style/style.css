@@ -15,9 +15,8 @@ body{
 }
 
 .container {
-	max-width: 1200px;/*ширина*/
-    margin: 0 auto;/*внешние отступы*/
-    
+	max-width: 1024px;/*ширина*/
+    margin: 0 auto;/*внешние отступы*/    
 }
 
 .logo {
@@ -67,7 +66,7 @@ nav li{
 }
 
 nav li a{
-    padding: 65px 30px;/*внутрений отступ*/
+    padding: 65px 15px;/*внутрений отступ*/
     font-weight: 500;
     color: #fff;/*цвет*/
     font-size: 1.25em;/*размер объекта*/
@@ -194,7 +193,7 @@ nav li a:hover{
 	background:url('../img/news-2.jpg') no-repeat;/*фоновая картинка без повторений*/
 	background-size: cover;/*на всю область*/
 }
-.news-img2{
+.news .news-img2{
     width: 100%;/*ширина*/
 	height: 100%;/*высота*/
 	background:url('../img/news-1.jpg') no-repeat;/*фоновая картинка без повторений*/
@@ -227,12 +226,31 @@ nav li a:hover{
     line-height: 2;/*Устанавливает межстрочный интервал текста*/
     height: 210px;/*высота*/
 }
+.news-txt p a{
+    padding: 65px 30px;/*внутрений отступ*/
+    font-weight: 500;
+    color: #fff;/*цвет*/
+    font-size: 1.25em;/*размер объекта*/
+    text-decoration: none;/*подчеркивание убрали*/
+}
+
+.right p a{
+    padding: 65px 30px;/*внутрений отступ*/
+    font-weight: 500;
+    color: rgb(12, 12, 12);/*цвет*/
+    font-size: 1.25em;/*размер объекта*/
+    text-decoration: none;/*подчеркивание убрали*/
+}
+
+.news-txt p a:hover{
+    color: rgb(105, 17, 17);/*цвет*/
+}
 
 .blogs{
     text-align: center;/*расположение текста*/
     padding-top: 50px;/*отступ сверху*/
     background-color: #fff;/*цвет фона*/
-    height:100vh;/*высота*/
+    height:130vh;/*высота*/
     padding-bottom: 5%;/*отступ снизу*/
 }
 .blogs .heading h2 {
@@ -279,7 +297,11 @@ nav li a:hover{
 }
 .blog-img {
     height: 300px;/*высота*/
-    overflow: hidden;/*управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров.*/
+    margin: 0 auto;
+    float: top;
+    position: top;
+    vertical-align: middle;
+    overflow: hidden ;/*управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров.*/
 }
 .quick{
     padding: 70px 0;
@@ -295,7 +317,7 @@ nav li a:hover{
 }
 .quick .quick-action{
     float: left;/*расположение объекта на странице*/
-    width: 50%;
+    width: 100%;
 }
 .quick-action p{
     display: inline-block;
@@ -311,7 +333,7 @@ nav li a:hover{
     background: url('../img/2.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;/*будет ли прокручиваться фоновое изображение вместе с содержимым элемента*/
-    height: 850px;
+    height: 600px;
     width: 100%;
     color: #fff;
 }
@@ -329,7 +351,7 @@ nav li a:hover{
     line-height: 1.6;
 }
 .key-feature img{
-    padding-top: 15%;
+    padding-top: 9%;
     padding-left: 20%;
 }
 .key-link {
@@ -359,7 +381,7 @@ nav li a:hover{
     text-align: center;
     padding-top: 50px;
     background-color: #fff;
-    height:850px;
+    height:600px;
 }
 
 .our-team .heading h2 {
@@ -414,17 +436,29 @@ nav li a:hover{
     background: url('../img/3.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 820px;
+    height: 1050px;
     width: 100%;
     color: #fff;
     text-align: center;
-    padding-top:50px;
+    padding-top:10px;
 }
 form{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .contacts .heading h2{
-    margin: -185px 0 115px 0;
+    margin: -235px 0 115px 0;
+}
+.contacts .heading {
+    font-weight: 500;
+    color: #fff;/*цвет*/
+    font-size: 1.25em;/*размер объекта*/
+}
+.contacts .heading p a{
+    padding: 65px 15px;/*внутрений отступ*/
+    font-weight: 500;
+    color: #fff;/*цвет*/
+    font-size: 1.25em;/*размер объекта*/
+    text-decoration: none;/*подчеркивание убрали*/
 }
 .contacts textarea{
     margin: 0 auto;

@@ -455,7 +455,7 @@ form{
 }
 .contacts .heading p a{
     padding: 65px 15px;/*внутрений отступ*/
-    font-weight: 500;
+    font-weight: 501;
     color: #fff;/*цвет*/
     font-size: 1.25em;/*размер объекта*/
     text-decoration: none;/*подчеркивание убрали*/

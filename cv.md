@@ -1,12 +1,11 @@
-1. Sam Shpakov
-2. Contact Info (add several ways to contact you)
-3. Summary (your goal, wishes, reveal what is important for you, what do you want and why.
-Some kind of self-presentation. In case of lack of experience  Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always
-learning new things from everywhere etc.).
-4. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
-5. Code examples (LATEST)
-6. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
-freelance projects - wherever they had the opportunity to demonstrate skills they have.
-Also it would be awesome if you add links to source code)
-7. Education (including courses, seminars, lectures, online learning)
-8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
+# rsschool-cv
+1. ***Ruslan Timbakov***
+2. Tel: +7-904-631-92-25; e-mail: *ruslam.timbakov@gmail.com;* telegram: @arbuz666
+3. Become the demanded full-stuck developer of web application in 2 years, as junior developer i have a tremendous passion to learning new technologies and frameworks
+Also continue learn new programming languages, but as most importnant go to deep in computer science and be competitive in the labor market
+
+4. I've got experienced in HTML5, CSS3(Flexbox, Grid, Animations, SVG), JavaScript( es6+, DOM, API), Canvas, LESS, SCSS, NodeJS, Git, Webpack
+5. Bubble sort, Selection Sort, work with DOM API
+6. SibSAU bachelor degree, courses of computer science  
+7. English intermediate level, was living in USA, additional courses of English
+

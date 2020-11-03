@@ -5,14 +5,19 @@ My purpose to become the demanded full-stuck developer of web application in 2 y
   
 I've got experience in working with HTML5, CSS3(Flexbox, Grid, Animations, SVG), JavaScript( es6+, DOM, API), Canvas, LESS, SCSS, NodeJS, Git, Webpack  
 Solving algorithms different tasks, working with DOM API on native JavaScript, using fetch, async functions and all new technologies in JS such as private method and etc..  
+  
 I'm continue learning SPA developing, RESTful application, states and routing, learning different patterns and data structure.  
 SibSAU bachelor degree, some courses of computer science  
+  
 Also i have English intermediate level, was living in USA, had additional courses of English  
-Currently studying in Rolling Scopes School, creating different web application, working in team, using git and webpack as additional technologies to create progressive and       compatible web application.  
-Personal qualities :   
-The most distinctive qualities that I would like to highlight 1. Flexibility such as in soft skills like working with team such as in hard skills find new ways to solve problems.  
-2. Persistence in way i choose, no metter how much i have loses i always do what i think i shoud.   
-
+Currently studying in Rolling Scopes School, creating different web application, working in team, using git and webpack as additional technologies to create progressive and       compatible web application. 
+    
+     
+The most distinctive qualities that I would like to highlight:  
+  1. Flexibility such as in soft skills like working with team such as in hard skills find new ways to solve problems.    
+  2. Persistence in way i choose, no metter how much i have loses i always do what i think i shoud.     
+  
+  
 List of my projects :   
 Calculator link :   
 https://rolling-scopes-school.github.io/ruslanchampion-JS2020Q3/calculator/   
